@@ -13,9 +13,9 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: lucas
-  password: hongye6014
-  socket: /var/run/mysqld/mysqld.sock
+  username: root
+  password:
+  socket: mysql2://b48787c4c8737f:fa086b2d@us-cdbr-iron-east-04.cleardb.net/heroku_213301ed1f74b69?reconnect=true
 
 development:
   <<: *default
