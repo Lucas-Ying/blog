@@ -4,5 +4,8 @@ Rails.application.routes.draw do
   devise_for :users
   resources :posts
 
-  root 'posts#index'
+  root 'base#index'
+
+  get 'others/404'
+  get 'others/construction'
 end

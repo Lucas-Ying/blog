@@ -25,10 +25,13 @@
                 <h2 class="post-title">
                   <%= post.title %>
                 </h2>
+                <h3 class="post-subtitle" style="font-weight: 500;">
+                  <%= post.subtitle %>
+                </h3>
             <% end %>
-            <h4 class="post-subtitle" style="font-weight: 300;">
+            <h5 class="post-subtitle" style="font-weight: 300;">
               <%= post.body %>
-            </h4>
+            </h5>
             <p class="post-meta">Posted by <a href="#">Lucas</a> on <%= post.created_at %></p>
           </div>
           <hr>
