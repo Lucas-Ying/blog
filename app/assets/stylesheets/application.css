@@ -11,4 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  *= require clean-blog.css
+ *= require thumb.css
+ *= require justifiedGallery.css
+ *= require responsiveslides.css
  */
