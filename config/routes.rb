@@ -8,4 +8,5 @@ Rails.application.routes.draw do
 
   get 'others/404'
   get 'others/construction'
+  get 'gallery/gallery'
 end

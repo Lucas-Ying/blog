@@ -21,6 +21,7 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'active_skin'
 gem 'redcarpet', '~> 3.3', '>= 3.3.4'
+gem 'paperclip', '~> 5.1'
 
 group :development, :test do
   gem 'byebug', platform: :mri
